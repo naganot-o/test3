@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  font-family: sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+h1 {
+  color: #444;
+}
+
+#fortune {
+  margin: 25px 0;
+  font-size: 36px;
+  font-weight: bold;
+  min-height: 50px;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 999px;
+  cursor: pointer;
+  background: #6c63ff;
+  color: white;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
